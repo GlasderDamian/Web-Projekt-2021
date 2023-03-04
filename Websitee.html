@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DaShoes</title>
+
+	<style>
+	
+	* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+#zentral{
+	margin: 0px auto;
+	width: 0px auto;
+}
+
+
+#header {
+	height: 50px;
+	background: black;
+	padding: 10px;
+	 border-bottom: 2px black solid;
+	
+		}
+	
+	#gesamt {
+	height: auto;
+	width: auto;
+	background: darkgrey;
+	overflow:hidden;
+
+
+}
+	
+		#links {
+	float: left;
+	width: 190px;
+	height:900px ;
+	background: grey;
+	padding: 10px;
+	border-right: 2px black solid;
+}
+
+		#rechts {
+	width: 0px auto;
+	float: left;
+	background: darkgray;
+		}
+	
+		
+		#suche {
+  width: 10em;
+  border: none;
+  border-bottom: 2px solid #999;
+  font-size: 0.5em;
+  transition: width 0.5s ease-in-out;
+}
+ 
+#suche:focus {
+  font-size: 0.6em;
+  width: 20%;
+}
+#unten {
+			
+			background: darkgray;
+			clear: bottom;
+			border-top: 2px black solid;
+		}
+
+
+.dropbtn {
+  background-color: darkgrey;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkslategrey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  font-family:Arial;
+}
+
+
+.dropdown-content a:hover {background-color: rgb(221, 221, 221);}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: #232523;}
+
+	</style>
+</head>
+
+<body background-color="darkgrey">
+	<div id="zentral">
+
+	<div id="header" style="background-image: linear-gradient(to bottom, darkgrey, rgb(197, 194, 194) 20%, rgb(136, 133, 133) 0%, grey);
+    background-size: cover;
+    background-repeat: no-repeat;">
+	 
+		<h1>
+			<a href="Websitee.html"
+			target="_blank"><img src="Unbenanntt.png" width="150px" height="72" style="position:relative;top:-10px;left:20px"/></a> 
+
+		  <div class="dropdown">
+			<button class="dropbtn" style="position:relative;top:-35px;left:40px">Kategorie</button>
+			<div class="dropdown-content" style="position: absolute;top:10px">
+			  <a href="#">Bestseller</a>
+			  <a href="#">Im Trend📈</a>
+			  <a href="#">Im Sale</a>
+			</div>
+		  </div>
+		  <input type="search" id="suche" placeholder=" suche" style="position:relative;left:50px;top:-30px;">
+	  </h1>
+	
+</div>
+	<div id="gesamt">
+
+        <div id="links">
+			<p style="text-align:center;font-size:xx-large;font-family:Arial, Helvetica, sans-serif;text-decoration: underline;">Topseller</p>
+			<table  cellpadding="50" cellspacing="50" style="position: absolute;left:-20px">
+				<tr>
+					<td> <a href="http://www.google.de"
+						target="_blank"><img src="Air force.png" width="140px" height=""/></a>
+						<br><h2 style="text-align: center;font-family: Arial;">Air Force 1</h2></br>
+					</td>
+				</tr>
+
+				<tr>
+					<td> <a href="http://www.google.de"
+						target="_blank"><img src="Bapesta.png" width="170px" height="90"/></a> 
+						<br><h2 style="text-align: center;font-family: Arial;">Bapesta Kaws</h2></br>
+					</td>
+					
+				</tr>
+					
+				<tr>
+						<td><a href="http://www.google.de"
+							target="_blank"><img src="timbs.png" width="125px" height="100"/></a> 
+							<br><h2 style="text-align: center;font-family: Arial;">Timberlands</h2></br>
+						</td>
+					</tr>
+
+					<tr>
+						<td><a href="http://www.google.de"
+							target="_blank"><img src="yeezy.png" width="150px" height="125" ></a> 
+						<br><h2 style="text-align: center;font-family: Arial;">Yeezy boost</h2></br>
+						</td>
+						
+				</tr>
+					</table>
+	
+		</div>
+
+		<div id="rechts">
+			<table  cellpadding="50" cellspacing="50">
+			<tr>
+				<td> <a href="NMD.html"
+					target="_blank"><img src="adidas-nmd.png" width="430px" height="300"/></a>
+					<p><h4 style="text-align: center;font-family: Arial;font-size:20px"><u>Adidas NMD</u></h4></p>
+					<h4 style="text-align: center;font-family: Arial;">20,00€</h4>
+				</td>
+
+				<td> <a href="http://www.google.de"
+					target="_blank"><img src="adidas-superstar-.png" width="400px" height="300"/></a> 
+					<p><h4 style="text-align: center;font-family: Arial;"><u>Adidas Superstar </u></h4></p>
+					<p><h4 style="text-align: center;font-family: Arial;">35,00€</h4></p>
+				</td>
+				
+			</tr>
+				
+			<tr>
+					<td><a href="http://www.google.de"
+						target="_blank"><img src="nike.png" width="500px" height="260"/></a> 
+						<p><h4 style="text-align: center;font-family: Arial;"><u>Nike</u></h4></p>
+						<p><h4 style="text-align: center;font-family: Arial;"> 24,99€</h4></p>
+					</td>
+					
+					<td><a href="http://www.google.de"
+						target="_blank"><img src="nike-air-max-97-air.png" width="400px" height="300"/></a> 
+					<p><h4 style="text-align: center;font-family: Arial;"><u>Nike Air Max</u></h4></p>
+					<p><h4 style="text-align: center;font-family: Arial;"> 80,00€</h4></p>
+					</td>
+					
+			</tr>
+				</table>
+
+
+				<div id="unten">
+					<h1> <a href="http://www.google.de" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">Über Uns  •      </a> <a href="http://www.google.de" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">Impressum  •     </a><a href="http://www.google.de" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">AGB  •     </a><a href="http://www.google.de" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">Datenschutz  •     </a><a href="http://www.google.de" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">Hilfe/FAQ  •     </a></h1>		
+
+					</div>
+	</div>
+
+
+
+</div>
+</body>
+</html>
+

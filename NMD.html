@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DaShoe</title>
+
+	<style>
+	
+	* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+#zentral{
+	margin: 0px auto;
+	width: 0px auto;
+}
+
+
+#header {
+	height: 75px;
+	background: black;
+	padding: 10px;
+	 border-bottom: 2px black solid;
+	
+		}
+	
+	#gesamt {
+	height: auto;
+	width: auto;
+	background: darkgrey;
+	overflow:hidden;
+
+
+}
+	
+		#links {
+	float: left;
+	width: 190px;
+	height:900px ;
+	background: grey;
+	padding: 10px;
+	border-right: 2px black solid;
+}
+
+		#rechts {
+	width: 0px auto;
+	float: left;
+	background: darkgray;
+		}
+	
+		
+
+#unten {
+			
+			background: darkgray;
+			clear: bottom;
+            width: auto ;
+			border-top: 2px black solid;
+		}
+		
+		* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 200px;
+  border-radius: 2px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.button {
+  background-color: #282e28; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+	</style>
+
+</head>
+
+<body background-color="darkgrey">
+	<div id="zentral">
+
+	<div id="header" style="background-image: linear-gradient(to bottom, darkgrey, rgb(197, 194, 194) 20%, rgb(136, 133, 133) 0%, grey);background-size: cover;background-repeat: no-repeat;">
+	 
+		<h1>
+			<a href="Websitee.html"
+			target="_blank"><img src="Unbenanntt.png" width="150px" height="72" style="position:relative;top:-10px;left:20px"/></a> 
+		</h1>
+	
+</div>
+	<div id="gesamt">
+
+        <div id="links">
+			<a href="Websitee.html" style="color:black; font-family:Arial;font-size:40px">Zurück</a>
+
+		</div>
+
+		<div id="rechts">
+			<tr>
+				<td> 
+					<div class="slideshow-container" style="position:relative;top:30px;left:30px">
+					
+					  <div class="mySlides fade">
+						<div class="numbertext">1 / 3</div>
+						<img src="d.jpg" style="width:80%;">
+						<div class="text"></div>
+					  </div>
+					
+					  <div class="mySlides fade">
+						<div class="numbertext">2 / 3</div>
+						<img src="dd.jpg" style="width:80%;">
+						<div class="text"></div>
+					  </div>
+					
+					  <div class="mySlides fade">
+						<div class="numbertext">3 / 3</div>
+						<img src="ddd.jpg" style="width:80%;">
+						<div class="text"></div>
+					  </div>
+					
+
+					  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+					<br>
+					<h1 style="position: relative;left:30px;top:30px;font-family:Arial;">Adidas NMD R1 “Light Solid Grey”</h1> 
+
+					<h4 style="position: relative;left:50px;top:50px;font-family:Arial;">Der NMD_R1 kombiniert modernste adidas Technologien mit klassischen Retro-Vibes.</h4><p></p>
+					<h4 style="position: relative;left:50px;top:50px;font-family:Arial;">Die reaktionsfreudige, dämpfende Zwischensohle und das stretchige, sockenähnliche Obermaterial sorgen außerdem für überragenden Tragekomfort.</h4> <p></p>
+					<a href="#" class="button" style="position: relative;left:60px;top:70px;font-family: Arial;">In den Warenkorb</a> <h1 style="position:relative;top:40px;left:255px;font-family:Arial;"> 20,00€</h1>
+				</td>
+			</tr>
+				<div id="unten" style="position: absolute;top:900px">
+					<h1> <a href="https://www.google.com" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">Über Uns  •      </a> <a href="https://www.google.com" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">Impressum  •     </a><a href="https://www.google.com" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">AGB  •     </a><a href="https://www.google.com" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">Datenschutz  •     </a><a href="https://www.google.com" style="text-decoration: none; color:black; font-family:Arial"
+						target="_blank">Hilfe/FAQ  •     </a></h1>		
+						
+			
+
+
+					</div>
+	</div>
+
+
+</div>
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+	
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+	
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+	
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		  slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+		  dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	}
+	</script>
+</body>
+</html>
+
